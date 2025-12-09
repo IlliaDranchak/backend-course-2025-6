@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Пошук інвентаря</title>
+</head>
+<body>
+
+  <h2>Пошук інвентаря за ID</h2>
+
+  <form method="post" action="/search">
+
+    <label for="id">ID інвентаря:</label><br>
+    <input type="number" id="id" name="id" required><br><br>
+
+    <label>
+      <input type="checkbox" name="has_photo" value="1">
+      Додати посилання на фото
+    </label><br><br>
+
+    <button type="submit">Пошук</button>
+
+  </form>
+
+</body>
+</html>

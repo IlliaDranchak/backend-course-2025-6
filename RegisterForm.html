@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Реєстрація інвентаря</title>
+</head>
+<body>
+
+  <h2>Форма реєстрації інвентаря</h2>
+
+  <form method="post" action="/register" enctype="multipart/form-data">
+
+    <label>Назва:</label><br>
+    <input type="text" name="inventory_name" required><br><br>
+
+    <label>Опис:</label><br>
+    <textarea name="description" rows="4" cols="50"></textarea><br><br>
+
+    <label>Фото:</label><br>
+    <input type="file" name="photo"><br><br>
+
+    <button type="submit">Зареєструвати</button>
+
+  </form>
+
+</body>
+</html>
